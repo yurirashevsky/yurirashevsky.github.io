@@ -16,7 +16,7 @@ nav {
     margin: auto;
 }
 nav a {
-  color: black;
-  display: flex;
-  margin: 10px;
+    color: black;
+    display: flex;
+    margin: 10px;
 }
