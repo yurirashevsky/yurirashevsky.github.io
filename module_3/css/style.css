@@ -30,6 +30,7 @@ body {
 /*Свойства главного меню*/
 .main-menu {
   height: 40px;
+  margin-bottom: 40px;
   background: linear-gradient(to bottom, #5e5e5e, #444343);
   font-size: 0;
 }
@@ -64,4 +65,77 @@ body {
   border-right: 1px solid #838383;
 }
 
-/*Свойства контента*/
+/*Свойства боковой панели*/
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+}
+.sidebar ul {
+  width: 240px;
+  margin-right: 48px;
+}
+.sidebar-item {
+  display: block;
+  padding: 13px 43px 13px 25px;
+  color: #656363;
+  font-size: 13px;
+  text-decoration: none;
+  border-right: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+}
+.first-item {
+  border-top: 1px solid #c8c8c8;
+}
+.sidebar-item:hover {
+  padding-left: 35px;
+  color: #2c2c2c;
+  background-color: #f9f9f9;
+}
+
+/*Свойства основного контента*/
+.bicycle {
+  display: inline-block;
+}
+.frame {
+  position: relative;
+  height: 398px;
+  width: 671px;
+  border: 1px solid #c8c8c8;
+}
+.frame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bicycle p {
+  width: 625px;
+  margin: 40px auto;
+  color: #2c2c2c;
+}
+
+/*Свойства футера*/
+.links {
+  height: 40px;
+  vertical-align: middle;
+  background-color: #e1e1e1;
+}
+.links a{
+  padding: 13px 43px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.links a:first-child {
+  padding: 13px 43px 13px 25px;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.copy{
+  float: right;
+  margin-right: 25px;
+  line-height: 40px;
+  color: #2c2c2c;
+}
