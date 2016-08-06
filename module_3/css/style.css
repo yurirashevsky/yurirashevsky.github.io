@@ -49,13 +49,8 @@ body {
   text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
-.first-m-menu-item {
-  display: block;
+.m-menu-item:first-child {
   padding: 13px 43px 13px 25px;
-  color: #fff;
-  font-size: 14px;
-  text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
-  text-decoration: none;
 }
 .m-menu-item:hover {
   padding: 13px 42px;
@@ -63,8 +58,8 @@ body {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
 }
-.first-m-menu-item:hover {
-  padding: 13px 42px 13px 25px;
+.m-menu-item:first-child:hover {
+  padding: 13px 42px 13px 24px;
   background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
   border-right: 1px solid #838383;
 }
@@ -89,7 +84,7 @@ body {
   border-bottom: 1px solid #c8c8c8;
   border-left: 1px solid #c8c8c8;
 }
-.first-item {
+.sidebar li:first-child {
   border-top: 1px solid #c8c8c8;
 }
 .sidebar-item:hover {
