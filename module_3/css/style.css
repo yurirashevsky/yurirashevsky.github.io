@@ -43,7 +43,7 @@ body {
 }
 .m-menu-item {
   display: block;
-  padding: 13px 43px;
+  padding: 13px 44px;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -52,7 +52,7 @@ body {
 }
 .first-m-menu-item {
   display: block;
-  padding: 13px 43px 13px 25px;
+  padding: 13px 44px 13px 25px;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -60,13 +60,13 @@ body {
   text-decoration: none;
 }
 .m-menu-item:hover {
-  padding: 13px 42px;
+  padding: 13px 43px;
   background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
 }
 .first-m-menu-item:hover {
-  padding: 13px 42px 13px 25px;
+  padding: 13px 43px 13px 25px;
   background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
   border-right: 1px solid #838383;
 }
@@ -119,10 +119,9 @@ body {
 }
 .bicycle p {
   width: 625px;
-  margin: 35px auto;
+  margin: 35px auto 45px;
   font-size: 13.33px;
-  line-height: 22px;
-  font-kerning: auto;
+  line-height: 23px;
   color: #2c2c2c;
 }
 
