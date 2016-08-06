@@ -112,10 +112,10 @@ body {
 }
 .bicycle p {
   width: 625px;
-  margin: 40px auto;
+  margin: 35px auto;
   font-size: 13.33px;
   line-height: 22px;
-  text-indent: 5px;
+  font-kerning: auto;
   color: #2c2c2c;
 }
 
