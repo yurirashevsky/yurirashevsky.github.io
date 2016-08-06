@@ -46,11 +46,18 @@ body {
   padding: 13px 43px;
   color: #fff;
   font-size: 14px;
+  font-weight: 500;
   text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
-.m-menu-item:first-child {
+.first-m-menu-item {
+  display: block;
   padding: 13px 43px 13px 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 .m-menu-item:hover {
   padding: 13px 42px;
@@ -58,8 +65,8 @@ body {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
 }
-.m-menu-item:first-child:hover {
-  padding: 13px 42px 13px 24px;
+.first-m-menu-item:hover {
+  padding: 13px 42px 13px 25px;
   background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
   border-right: 1px solid #838383;
 }
