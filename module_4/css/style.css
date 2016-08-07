@@ -27,6 +27,20 @@ body {
   bottom: 0;
   margin-left: 28px;
 }
+.contacts {
+  position: absolute;
+  right: 33px;
+  top: 10px;
+  font-size: 12px;
+  line-height: 17px;
+}
+.contacts-h {
+  font-weight: bold;
+}
+.contacts a {
+  color: #128aa7;
+  text-decoration: none;
+}
 .flags {
   position: absolute;
   right: 30px;
