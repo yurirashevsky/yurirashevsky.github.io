@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   width: 1060px;
   height: 100vh;
+  padding-bottom: 60px;
   background-color: #fff;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
      -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
@@ -128,7 +129,6 @@ body {
 
 .links {
   height: 40px;
-  margin-bottom: 60px;
   vertical-align: middle;
   background-color: #e1e1e1;
 }
