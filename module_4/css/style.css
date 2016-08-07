@@ -27,6 +27,15 @@ body {
   bottom: 0;
   margin-left: 28px;
 }
+.descript {
+  position: absolute;
+  bottom: 55px;
+  margin-left: 100px;
+  color: #128aa7;
+  font-size: 12px;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
 .contacts {
   position: absolute;
   right: 33px;
