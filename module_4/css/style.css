@@ -29,16 +29,14 @@ body {
 }
 .flags {
   position: absolute;
-  right: 28px;
+  right: 30px;
   bottom: 10px;
   font-size: 0;
 }
-.flags li {  
+.flags li {
   display: inline-block;
+  width: 56px;
   text-align: center;
-}
-.flags img {
-  padding-right: 16px;
 }
 .flags a {
   color: #128aa7;
