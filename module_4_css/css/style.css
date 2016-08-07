@@ -101,27 +101,15 @@ body {
   color: #fff;
   text-decoration: none;
 }
-.menu li a::after {
-  content: "  ";
+.arrow-down::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #960302;
-}
-/*.arrow-down::after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #960302;*/
-}
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #960302;
+  border-top: 5px solid #fff;
 }
 .submenu {
   display: none;
