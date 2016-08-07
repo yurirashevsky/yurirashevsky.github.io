@@ -3,27 +3,18 @@
 html {
   width: 100%;
   height: 100%;
-  background-color: #f9f9f9;
+  background-color: #0c739f;
 }
 body {
-  margin: auto;
-  width: 1060px;
-  height: 100%;
+  margin: 0 auto;
+  width: 1000px;
   background-color: #fff;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
      -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-  font-family: 'Open Sans', sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
 }
-
-/*Универсальные классы*/
-
-.margin {
-  margin-left: 47px;
-  margin-right: 47px;
-}
-
-/*Свойства логотипа*/
+/*Свойства хеадера*/
 
 .logo {
   margin-top: 50px;
@@ -33,42 +24,23 @@ body {
 /*Свойства главного меню*/
 
 .main-menu {
-  height: 40px;
-  margin-bottom: 40px;
-  background: linear-gradient(to bottom, #5e5e5e, #444343);
+  border-top: 1px solid #cacbcb;
+  border-bottom: 1px solid #000;
+  background-color: #343434;
   font-size: 0;
 }
 .main-menu li {
   display: inline-block;
+  width: 14.28%;
+  font-size: 14px;
+  text-align: center;
 }
 .m-menu-item {
   display: block;
-  padding: 13px 44px;
+  padding: 7px 0;
   color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
+
   text-decoration: none;
-}
-.first-m-menu-item {
-  display: block;
-  padding: 13px 44px 13px 25px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  text-shadow: .5px .75px 1px rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-}
-.m-menu-item:hover {
-  padding: 13px 43px;
-  background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
-}
-.first-m-menu-item:hover {
-  padding: 13px 43px 13px 25px;
-  background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
-  border-right: 1px solid #838383;
 }
 
 /*Свойства боковой панели*/
@@ -146,28 +118,9 @@ body {
   text-decoration: underline;
 }
 .copy {
-  float: right;
-  margin-right: 25px;
-  line-height: 40px;
-  color: #2c2c2c;
-  font-size: 13.33px;
-}
-
-
-
-
-
-
-
-..Lorem_Ipsum___це_текст__риба___що_використовуєт {
-  font-size: 13.333px;
-  font-family: "OpenSans";
-  color: rgb(44, 44, 44);
-  line-height: 1.6;
-  position: absolute;
-  left: 487.964px;
-  top: 669.11px;
-  width: 625px;
-  height: 141px;
-  z-index: 12;
+  width: 200px;
+  margin: 8px auto;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
 }
