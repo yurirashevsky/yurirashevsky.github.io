@@ -11,12 +11,14 @@ body {
   margin: 0 auto;
   width: 1000px;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-     -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+     -moz-box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+          box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
   font-family: Tahoma, Verdana, sans-serif;
 }
+
 /*Свойства хеадера*/
+
 .header-t {
   position: relative;
   height: 175px;
