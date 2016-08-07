@@ -2,7 +2,6 @@
 
 html {
   width: 100%;
-  height: 100%;
   background-image: url(../img/background.png);
   background-repeat: repeat-x;
   background-color: #0c739f;
@@ -60,15 +59,30 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.arrow {
+  height: 6px;
+  margin-left: 8px;
+}
 
 /*Свойства основного контента*/
+
+.content {
+  height: 546px;
+  color: #424c43;
+}
+.section-name {  
+  font-size: 18;
+  font-weight: bold;
+  text-align: center;
+}
 
 /*Свойства футера*/
 
 .copy {
-  width: 200px;
-  margin: 8px auto;
-  text-align: center;
+  width: 100%;
   color: #fff;
   font-size: 12px;
+}
+.copy p {
+  margin: 0 auto;
 }
