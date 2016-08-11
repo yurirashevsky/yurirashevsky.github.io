@@ -140,27 +140,32 @@ body {
 /*Свойства основного контента*/
 
 .content {
-  width: 100%;
   color: #424c43;
-  overflow: hidden;
+  font-size: 14px;
 }
 .info,
 .the-hole,
 .news {
-  display: inline-block;
-  vertical-align: top;
-  height: 100%;
-
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
 }
 .info,
 .news {
-  width: 21%;
+  width: 208px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
   background-color: #edeef0;
 }
+.info {
+  float: left;
+}
+.news {
+  float: left;
+}
 .the-hole{
-  width: 58%;
+  float: left;
+  /*margin: 0 auto;*/
+  width: 580px;
   background-color: #fff;
 }
 .section-name {
@@ -172,6 +177,21 @@ body {
 .info p,
 .news p {
   margin: 10px 15px;
+}
+
+/*Clearfix*/
+
+.group::before,
+.group::after {
+  content: "";
+  display: table;
+}
+.group::after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
 
 /*Свойства подвала*/

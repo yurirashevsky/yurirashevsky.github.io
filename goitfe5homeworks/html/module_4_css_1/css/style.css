@@ -140,7 +140,6 @@ body {
 /*Свойства основного контента*/
 
 .content {
-  width: 100%;
   background-image: url(../img/mainbackground.png);
   background-color: #fff;
   background-repeat: repeat-y;
