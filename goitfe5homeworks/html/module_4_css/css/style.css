@@ -64,15 +64,12 @@ body {
   font-size: 10px;
   text-align: center;
 }
-/*.header-bm {
-  p
-}*/
-.header-bm img {
-  padding-top: 1px;
-  padding-bottom: 1px;
+.header-bm {
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
-  background-color: #128aa7;
+}
+.header-bm img {
+  display: block;
 }
 
 /*Свойства главного меню*/
@@ -105,7 +102,10 @@ body {
 .submenu {
   display: none;
   position: absolute;
+  top: 31px;
+  left: 20px;
   width: 150px;
+  padding-bottom: 12px;
   background-color: #343434;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
      -moz-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
@@ -113,16 +113,12 @@ body {
 }
 .submenu li {
   display: block;
-  width: 100%;
 }
 .submenu li a {
   padding: 10px;
   color: #fff;
   text-align: left;
   text-decoration: none;
-}
-.submenu li:last-child {
-  padding-bottom: 10px;
 }
 .menu li:hover .submenu {
     display: block;
