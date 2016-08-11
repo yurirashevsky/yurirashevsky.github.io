@@ -81,6 +81,7 @@ body {
   background-color: #343434;
   text-align: center;
   font-size: 0;
+  z-index: 10;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
      -moz-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
           box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
@@ -140,26 +141,56 @@ body {
 /*Свойства основного контента*/
 
 .content {
-  background-image: url(../img/mainbackground.png);
-  background-color: #fff;
-  background-repeat: repeat-y;
   color: #424c43;
-  font-size: 0;
-}
-.info,
-.the-hole,
-.news {
-  display: inline-block;
-  vertical-align: top;
-  height: 100%;
   font-size: 14px;
 }
-.info,
-.news {
-  width: 21%;
+.fon3 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  background: #edeef0;
+
+  border-right: 1px solid #c7cacf;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+     -moz-box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+          box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
 }
-.the-hole{
-  width: 58%;
+.fon2 {
+  position: relative;
+  right: 208px;
+  float: left;
+  width: 100%;
+  background: #fff;
+  border-right: 1px solid #c7cacf;
+}
+.fon1 {
+  position: relative;
+  right: 580px;
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  border-right: 1px solid #c7cacf;
+}
+.info{
+  position: relative;
+  left: 788px;
+  float: left;
+  width: 208px;
+  border-left: 1px solid #c7cacf;
+}
+.the-hole {
+  position: relative;
+  left: 788px;
+  float: left;
+  width: 580px;
+}
+.news {
+  position: relative;
+  left: 788px;
+  float: right;;
+  overflow: hidden;
+  width: 208px;
 }
 .section-name {
   margin: 12px;
