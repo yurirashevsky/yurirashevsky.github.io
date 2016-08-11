@@ -1,22 +1,47 @@
 body {
-    background-color: #ffffff;
-    font-family: "Myriad Pro", Arial, sans-serif;
-    width: 100%;
+  background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0, #144999),	color-stop(1, #70FF91));
+  background-image: -webkit-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
+  background-image: -moz-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
+  background-image: -ms-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
+  background-image: -o-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
+  background-image: linear-gradient(to left bottom, #144999 0%, #70FF91 100%);
+  font-family: "Myriad Pro", Arial, sans-serif;
+}
+.homework {
+  width: 960px;
+  margin: 25px auto;
+  height: 100vh;
 }
 header {
-    margin-top: 50px;
-    text-align: center;
+  text-align: center;
 }
-h1 {
-    margin-bottom: 30px;
+header,
+.task,
+.object {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
-nav {
-    text-align: center;
-    width: 500px;
-    margin: auto;
+.object {
+  padding-left: 35px;
+  text-align: center;
 }
-nav a {
-    color: black;
-    display: flex;
-    margin: 10px;
+.number {
+  padding:0;
+  margin: 10px;
+}
+.task ul {
+  padding: 0;
+  margin: 0;
+}
+.task li {
+  padding: 10px 10px;
+  list-style: none;
+}
+.task a {
+  color: black;
+  text-decoration: none;
 }
