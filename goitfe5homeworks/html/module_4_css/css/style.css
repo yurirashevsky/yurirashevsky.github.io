@@ -143,9 +143,10 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  height: 546px;
-  width: 100%;
+  width: 100%;  
+  background-image: url(../img/mainbackground.png);
   background-color: #fff;
+  background-repeat: repeat-y;
   color: #424c43;
   font-size: 0;
   overflow: hidden;
@@ -164,6 +165,7 @@ body {
   display: inline-block;
   vertical-align: top;
   height: 100%;
+
 }
 .info,
 .news {
