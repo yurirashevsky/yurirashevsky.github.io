@@ -6,11 +6,11 @@ body {
   background-image: -o-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
   background-image: linear-gradient(to left bottom, #144999 0%, #70FF91 100%);
   font-family: "Myriad Pro", Arial, sans-serif;
+  height: 100vh;
 }
 .homework {
   width: 960px;
   margin: 25px auto;
-  height: 100vh;
 }
 header {
   text-align: center;
