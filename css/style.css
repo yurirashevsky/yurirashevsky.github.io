@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0, #144999),	color-stop(1, #70FF91));
   background-image: -webkit-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
   background-image: -moz-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
@@ -6,7 +7,6 @@ body {
   background-image: -o-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
   background-image: linear-gradient(to left bottom, #144999 0%, #70FF91 100%);
   font-family: "Myriad Pro", Arial, sans-serif;
-  background-repeat: no-repeat;
 }
 .homework {
   width: 960px;
