@@ -1,7 +1,6 @@
 /*Общая настройка фона*/
 
 body {
-  width: 100%;
   background-image: url(../img/background.png);
   background-repeat: repeat-x;
   background-color: #0c739f;
@@ -89,33 +88,25 @@ body {
 }
 .menu li {
   position: relative;
-  z-index: 11;
+  z-index: 10;
   display: inline-block;
   width: 14.28%;
   font-size: 14px;
   text-align: center;
 }
 .menu li a {
+  z-index: 15;
   display: block;
   padding: 7px 0;
   color: #fff;
   text-decoration: none;
 }
-.arrow-down::after {
-  content: "";
-  display: inline-block;
-  margin-left: 5px;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #fff;
-}
+
 .submenu {
   display: none;
   position: absolute;
   width: 100%;
-  z-index: 12;
+  z-index: 5;
   background-color: #343434;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
      -moz-box-shadow: 0 2px 10px 0 rgba(0,0,0,.6);
@@ -136,6 +127,19 @@ body {
 }
 .menu li:hover .submenu {
     display: block;
+}
+
+/*Стрелка выпадающего меню*/
+
+.arrow-down::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
 }
 
 /*Свойства основного контента*/
