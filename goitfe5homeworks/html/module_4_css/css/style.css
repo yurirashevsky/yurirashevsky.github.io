@@ -75,7 +75,7 @@ body {
 /*Свойства главного меню*/
 
 .menu {
-  height: 30px;
+  position: relative;
   border-top: 1px solid #cacbcb;
   border-bottom: 1px solid #000;
   background-color: #343434;
@@ -92,7 +92,7 @@ body {
 }
 .menu li a {
   display: block;
-  padding: 7px 31px;
+  padding: 8px 31px;
   color: #fff;
   text-decoration: none;
 }
