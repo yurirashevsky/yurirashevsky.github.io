@@ -64,15 +64,15 @@ body {
   font-size: 10px;
   text-align: center;
 }
-.header-bm {
+/*.header-bm {
+  p
+}*/
+.header-bm img {
   padding-top: 1px;
   padding-bottom: 1px;
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
   background-color: #128aa7;
-}
-.header-bm img {
-  height: 237px;
 }
 
 /*Свойства главного меню*/
