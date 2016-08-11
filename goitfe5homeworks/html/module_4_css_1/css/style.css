@@ -140,24 +140,12 @@ body {
 /*Свойства основного контента*/
 
 .content {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 100%;  
+  width: 100%;
   background-image: url(../img/mainbackground.png);
   background-color: #fff;
   background-repeat: repeat-y;
   color: #424c43;
   font-size: 0;
-  overflow: hidden;
-}
-.info,
-.the-hole,
-.news {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 14px;
 }
 .info,
 .the-hole,
@@ -165,14 +153,11 @@ body {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-
+  font-size: 14px;
 }
 .info,
 .news {
   width: 21%;
-  border-left: 1px solid #c7cacf;
-  border-right: 1px solid #c7cacf;
-  background-color: #edeef0;
 }
 .the-hole{
   width: 58%;
