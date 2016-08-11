@@ -1,4 +1,5 @@
 body {
+  min-height: 100%;
   height: 100vh;
   background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0, #144999),	color-stop(1, #70FF91));
   background-image: -webkit-linear-gradient(left bottom, #144999 0%, #70FF91 100%);
