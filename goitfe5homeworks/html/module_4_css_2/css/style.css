@@ -142,6 +142,7 @@ body {
 .content {
   color: #424c43;
   font-size: 14px;
+  overflow: hidden;
 }
 .info,
 .the-hole,
@@ -149,24 +150,24 @@ body {
   padding-bottom: 20000px;
   margin-bottom: -20000px;
 }
-.info,
-.news {
+.info {
+  float: left;
   width: 208px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
-  background-color: #edeef0;
-}
-.info {
-  float: left;
-}
-.news {
-  float: left;
+  background: #edeef0;
 }
 .the-hole{
   float: left;
-  /*margin: 0 auto;*/
   width: 580px;
-  background-color: #fff;
+  background: #fff;
+}
+.news {
+  float: right;
+  width: 208px;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  background: #edeef0;
 }
 .section-name {
   margin: 12px;
