@@ -1,7 +1,7 @@
 /*Общие настройки*/
 
 body {
-  background-color: white;
+  background-color: #dee3ec;
 }
 table {
   position: absolute;
@@ -16,7 +16,6 @@ table {
 td {
   border: 10px solid black;
 }
-
 /*Настройка размеров*/
 
 .row1 {
