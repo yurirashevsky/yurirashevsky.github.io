@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    table {
+      height: 540px;
+      width: 500px;
+      background-color: black;
+      background-image: url(homework5_table.png);
+      color: green;
+    }
+    td {
+      border: 10px solid green;
+    }
+    .row1 {
+      height: 52px;
+    }
+    .row2 {
+      height: 138px;
+    }
+    .row3 {
+      height: 138px;
+    }
+
+
+
+
+
+
+    .cell1 {
+      width: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr class="row1">
+      <td colspan="2">Ячейка 1</td>
+      <td colspan="3">Ячейка 3</td>
+      <td colspan="2">Ячейка 6</td>
+    </tr>
+    <tr class="row2">
+      <td class="cell1">Ячейка 8</td>
+      <td colspan="4">Ячейка 9</td>
+      <td colspan="2">Ячейка 13</td>
+    </tr>
+    <tr class="row3">
+      <td rowspan="2">Ячейка 15</td>
+      <td colspan="4">Ячейка 16</td>
+      <td>Ячейка 20</td>
+      <td>Ячейка 21</td>
+    </tr>
+    <tr>
+      <td>Ячейка 23</td>
+      <td>Ячейка 24</td>
+      <td colspan="2">Ячейка 25</td>
+      <td colspan="2">Ячейка 27</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Ячейка 29</td>
+      <td>Ячейка 30</td>
+      <td>Ячейка 31</td>
+      <td colspan="2">Ячейка 32</td>
+      <td colspan="2" rowspan="2">Ячейка 34</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2">Ячейка 37</td>
+      <td colspan="2">Ячейка 39</td>
+    </tr>
+    <tr>
+      <td colspan="4">Ячейка 46</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
