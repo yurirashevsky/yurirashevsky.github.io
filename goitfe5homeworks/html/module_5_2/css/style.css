@@ -4,12 +4,11 @@ body {
   background-color: white;
 }
 table {
-  margin: auto;;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  margin: auto;
+  top: 5%;
   left: 0;
+  right: 0;
   clip: rect(10px, 510px, 547px, 10px);
   height: 560px;
   width: 520px;
