@@ -1,0 +1,66 @@
+/*Общие настройки*/
+
+body {
+  background-color: white;
+}
+table {
+  margin: 10vh auto;
+  height: 560px;
+  width: 520px;
+  background-color: white;
+  color: green;
+}
+td {
+  border: 10px solid black;
+}
+
+/*Настройка размеров*/
+
+.row1 {
+  height: 50px;
+}
+.row2 {
+  height: 125px;
+}
+.row3 {
+  height: 125px;
+}
+.row4 {
+  height: 60px;
+}
+.row5 {
+  height: 60px;
+}
+.row6 {
+  height: 30px;
+}
+.row7 {
+  height: 30px;
+}
+.cell1 {
+  width: 55px;
+}
+.cell2 {
+  width: 60px;
+}
+.cell3 {
+  width: 120px;
+}
+.cell4 {
+  width: 148px;
+}
+
+/*Настройка цветов*/
+
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.black {
+  background-color: black;
+}
