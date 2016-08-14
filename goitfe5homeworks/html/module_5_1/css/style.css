@@ -94,3 +94,89 @@ nav {
 .underline {
   text-decoration: underline;
 }
+
+/*Настройки формы*/
+
+section {
+  margin: 0 auto;
+  width: 560px;
+}
+.forma {
+  text-align: center;
+  margin: 0 auto;
+}
+.header {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 62px;
+  background-color: rgba(0,0,0,.65);
+}
+
+/*Свойства полей ввода*/
+
+.forma input {
+  height: 35px;
+  width: 275px;
+  margin-bottom: 16px;
+  padding-left: 18px;
+  outline: none;
+  border-top: 1px solid #111;
+  border-right: 1px solid #111;
+  border-left: 1px solid #111;
+  border-bottom: 1px solid #484746;
+  background-color: #111;
+}
+.forma input:hover {
+  border-bottom: 1px solid #689bcc;
+}
+
+/*Свойства placeholder*/
+
+.forma input::-webkit-input-placeholder {
+  text-indent: 0;
+  transition: text-indent 0.3s ease;
+}
+.forma input::-moz-placeholder {
+  text-indent: 0;
+  transition: text-indent 0.3s ease;
+}
+.forma input:-moz-placeholder {
+  text-indent: 0;
+  transition: text-indent 0.3s ease;
+}
+.forma input:-ms-input-placeholder {
+  text-indent: 0;
+  transition: text-indent 0.3s ease;
+}
+
+.forma input:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+.forma input:hover::-moz-placeholder {
+  color: #fff;
+}
+.forma input:hover:-moz-placeholder {
+  color: #fff;
+}
+.forma input:hover:-ms-input-placeholder {
+  color: #fff;
+}
+
+.forma input:focus::-webkit-input-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.3s ease;
+}
+.forma input:focus::-moz-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.3s ease;
+}
+.forma input:focus:-moz-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.3s ease;
+}
+.forma input:focus:-ms-input-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.3s ease;
+}
