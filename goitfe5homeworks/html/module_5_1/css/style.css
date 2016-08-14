@@ -34,11 +34,10 @@ nav {
 }
 
 .main-menu li {
-  display: block;
-  float: left;
+  display: inline-block;
 }
 
-.main-menu li a{
+.first-menu li a{
   display: block;
   padding: 11px 10px;
   color: white;
@@ -49,7 +48,6 @@ nav {
   height: 100vh;
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
   background-position: center;
 }
 
