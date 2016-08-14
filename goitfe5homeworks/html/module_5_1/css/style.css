@@ -1,15 +1,59 @@
+html,
 body {
-  min-height: 100%;
+  min-height: 100%;/*Позволяет растянуть фон*/
+  overflow-y: hidden;/*Убирает вертикальную полосу прокрутки*/
+}
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
 }
 
+/*clearfix*/
+
+.group::before,
+.group::after {
+  content: "";
+  display: table;
+}
+.group::after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*Главное меню*/
 nav {
-  display: inline-block;
+    background-image: url(../img/menu-background.png);
+}
+
+
+.main-menu {
+}
+
+.main-menu li {
+  display: block;
+  float: left;
+}
+
+.main-menu li a{
+  display: block;
+  padding: 11px 10px;
+  color: white;
+  text-decoration: none;
 }
 
 .wrapper {
-  height: 100%;
-  background-image: url(../img/background-min.jpg);
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
 }
+
+
 /*ul {
 padding:5px;
 }
