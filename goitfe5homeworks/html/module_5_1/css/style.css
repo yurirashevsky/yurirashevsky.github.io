@@ -1,7 +1,6 @@
 html,
 body {
   min-height: 100%;/*Позволяет растянуть фон*/
-  /*overflow-y: hidden;/*Убирает вертикальную полосу прокрутки*/*/
 }
 body {
   font-family: Tahoma, sans-serif;
@@ -57,6 +56,17 @@ nav {
   color: white;
   background-color: #4eabda;
   text-shadow: 0 0 7px rgba(255,255,255,.95);/*Использовал это свойство, так как жирный текст менят ширину кнопки*/
+}
+
+.first-menu::after {
+  content: "";
+  float: right;
+  line-height: 34px;
+  margin-left: 10px;
+  margin-top: 2px;
+  width: 0;
+  height: 30px;
+  border-left: 1px solid #4eabda;
 }
 .underline {
   text-decoration: underline;
