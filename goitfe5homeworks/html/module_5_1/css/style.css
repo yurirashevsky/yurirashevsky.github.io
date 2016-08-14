@@ -27,26 +27,38 @@ body {
 /*Главное меню*/
 nav {
     background-image: url(../img/menu-background.png);
+    text-align: right;
 }
-.first-menu {
-  float:right;
+.first-menu,
+.second-menu {
+  float: right;
   font-size: 0;
 }
-.first-menu li {
+
+.first-menu li,
+.second-menu li {
   display: inline-block;
 }
-.first-menu li a{
+.first-menu li a,
+.second-menu li a {
   display: block;
-  padding: 10px;
-  color: #60b5ed;
   text-decoration: none;
   font-size: 14px;
+}
+.first-menu li a{
+  padding: 10px;
+  color: #60b5ed;
+}
+.second-menu li a {
+  padding: 10px;
+  color: #fff;
 }
 .first-menu li a:hover{
   color: white;
   background-color: #4eabda;
-  text-shadow: 0 0 7px rgba(255,255,255,.95);/*Использовал это свойство, так как жирный текст менят ширину кнопки*/ 
+  text-shadow: 0 0 7px rgba(255,255,255,.95);/*Использовал это свойство, так как жирный текст менят ширину кнопки*/
 }
+
 
 .wrapper {
   height: 100vh;
