@@ -137,9 +137,9 @@ section {
   border-right: 1px solid #1d4c7c;
   border-left: 1px solid #1d4c7c;
   border-bottom: 1px solid #689bcc;
-  -webkit-box-shadow: 0 0 10px 0 rgba(47,123,197,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
-     -moz-box-shadow: 0 0 10px 0 rgba(47,123,197,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
-          box-shadow: 0 0 10px 0 rgba(47,123,197,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 15px 0 rgba(64,123,165,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
+     -moz-box-shadow: 0 0 15px 0 rgba(64,123,165,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
+          box-shadow: 0 0 15px 0 rgba(64,123,165,1), inset 0 0 10px 0 rgba(0,0,0,0.5);
   background-color: #1b5288;
 }
 
