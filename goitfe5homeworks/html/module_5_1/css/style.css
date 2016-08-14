@@ -1,0 +1,23 @@
+body {
+  min-height: 100%;
+}
+
+nav {
+  display: inline-block;
+}
+
+.wrapper {
+  height: 100%;
+  background-image: url(../img/background-min.jpg);
+}
+/*ul {
+padding:5px;
+}
+li {
+display:inline;
+border-left:1px solid #bbb;
+padding:0 2px 0 4px;
+}
+li:first-child {
+border:none;
+}*/
