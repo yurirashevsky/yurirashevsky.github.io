@@ -33,7 +33,8 @@ nav {
   float: right;
   font-size: 0;
 }
-.first-menu li, .second-menu li {
+.first-menu li,
+.second-menu li {
   display: inline-block;
 }
 .first-menu li a, .second-menu li a {
@@ -64,9 +65,8 @@ nav {
 }
 .flag::before {
   content: "";
-  /*position: relative;
-  bottom: 4px;*/
-  display: block;
+  position: relative;
+  bottom: 4px;
   background: url(../img/Inventicons.png) no-repeat top right;
   background-size: contain;
   margin-right: 10px;
