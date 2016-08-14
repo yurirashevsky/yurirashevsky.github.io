@@ -1,6 +1,6 @@
-html,
-body {
-  min-height: 100%;/*Позволяет растянуть фон*/
+html, body {
+  min-height: 100%;
+  /*Позволяет растянуть фон*/
 }
 body {
   font-family: Tahoma, sans-serif;
@@ -10,8 +10,7 @@ body {
 
 /*clearfix*/
 
-.group::before,
-.group::after {
+.group::before, .group::after {
   content: "";
   display: table;
 }
@@ -24,40 +23,38 @@ body {
 }
 
 /*Главное меню*/
+
 nav {
-    background-image: url(../img/menu-background.png);
-    text-align: right;
+  padding: 0 20px;
+  background-image: url(../img/menu-background.png);
+  text-align: right;
 }
-.first-menu,
-.second-menu {
+.first-menu, .second-menu {
   float: right;
   font-size: 0;
 }
-
-.first-menu li,
-.second-menu li {
+.first-menu li, .second-menu li {
   display: inline-block;
 }
-.first-menu li a,
-.second-menu li a {
+.first-menu li a, .second-menu li a {
   display: block;
   text-decoration: none;
   font-size: 14px;
 }
-.first-menu li a{
+.first-menu li a {
   padding: 10px;
   color: #60b5ed;
 }
 .second-menu li a {
-  padding: 10px;
+  padding: 10px 14px;
   color: #fff;
 }
-.first-menu li a:hover{
+.first-menu li a:hover {
   color: white;
   background-color: #4eabda;
-  text-shadow: 0 0 7px rgba(255,255,255,.95);/*Использовал это свойство, так как жирный текст менят ширину кнопки*/
+  text-shadow: 0 0 7px rgba(255, 255, 255, .95);
+  /*Использовал это свойство, так как жирный текст менят ширину кнопки*/
 }
-
 .first-menu::after {
   content: "";
   float: right;
@@ -65,10 +62,18 @@ nav {
   height: 30px;
   border-left: 1px solid #4eabda;
 }
+.flag::before {
+  content: url(../img/Inventicons.png);
+  position: relative;
+  bottom: 5px;
+  float: left;
+  margin-right: 10px;
+  height: 24px;
+
+}
 .underline {
   text-decoration: underline;
 }
-
 .wrapper {
   height: 100vh;
   background-image: url(../img/background.jpg);
@@ -76,7 +81,6 @@ nav {
   background-position: center 34px;
   background-size: cover;
 }
-
 
 /*ul {
 padding:5px;
