@@ -28,20 +28,24 @@ body {
 nav {
     background-image: url(../img/menu-background.png);
 }
-
-
-.main-menu {
+.first-menu {
+  float:right;
+  font-size: 0;
 }
-
-.main-menu li {
+.first-menu li {
   display: inline-block;
 }
-
 .first-menu li a{
   display: block;
-  padding: 11px 10px;
-  color: white;
+  padding: 10px;
+  color: #60b5ed;
   text-decoration: none;
+  font-size: 14px;
+}
+.first-menu li a:hover{
+  color: white;
+  background-color: #4eabda;
+  text-shadow: 0 0 7px rgba(255,255,255,.95);/*Использовал это свойство, так как жирный текст менят ширину кнопки*/ 
 }
 
 .wrapper {
