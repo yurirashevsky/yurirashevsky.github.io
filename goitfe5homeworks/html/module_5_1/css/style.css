@@ -22,6 +22,16 @@ body {
   *zoom: 1;
 }
 
+/*Настройка фона*/
+
+.wrapper {
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center 34px;
+  background-size: cover;
+}
+
 /*Главное меню*/
 
 nav {
@@ -84,22 +94,3 @@ nav {
 .underline {
   text-decoration: underline;
 }
-.wrapper {
-  height: 100vh;
-  background-image: url(../img/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center 34px;
-  background-size: cover;
-}
-
-/*ul {
-padding:5px;
-}
-li {
-display:inline;
-border-left:1px solid #bbb;
-padding:0 2px 0 4px;
-}
-li:first-child {
-border:none;
-}*/
