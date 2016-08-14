@@ -63,13 +63,16 @@ nav {
   border-left: 1px solid #4eabda;
 }
 .flag::before {
-  content: url(../img/Inventicons.png);
-  position: relative;
-  bottom: 5px;
-  float: left;
+  content: "";
+  /*position: relative;
+  bottom: 4px;*/
+  display: block;
+  background: url(../img/Inventicons.png) no-repeat top right;
+  background-size: contain;
   margin-right: 10px;
+  float: left;
   height: 24px;
-
+  width: 24px;
 }
 .underline {
   text-decoration: underline;
