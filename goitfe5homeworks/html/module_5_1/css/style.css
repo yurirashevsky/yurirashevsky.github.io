@@ -139,6 +139,30 @@ section {
   height: 614px;
   width: 560px;
 }
+.line {
+  display: block;
+  margin-bottom: 30px;
+  color: #999;
+}
+.line:before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 4px;
+  width: 123px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000000;
+}
+.line::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 4px;
+  width: 123px;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #000000;
+}
+
 .form {
   padding-top: 36px;
   padding-bottom: 22px;
