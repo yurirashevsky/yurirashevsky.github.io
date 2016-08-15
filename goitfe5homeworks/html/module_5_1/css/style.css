@@ -41,7 +41,6 @@ body {
 }
 .group {
   clear: both;
-  *zoom: 1;
 }
 
 /*Настройка фона*/
@@ -162,9 +161,7 @@ button:focus {
   color: #fff;
   background: linear-gradient(to bottom, #7789b7, #2e4476);
   border: 1px solid #415588;
-  -webkit-border-radius: 5px 5px 5px 5px;
-     -moz-border-radius: 5px 5px 5px 5px;
-          border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
   font-weight: bold;
 }
 .login {
@@ -256,9 +253,7 @@ button:focus {
 .field:focus {
   border: 1px solid #1d4c7c;
   border-bottom-color: #689bcc;
-  -webkit-box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
-     -moz-box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
-          box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
   background-color: #1b5288;
 }
 .checkbox {
