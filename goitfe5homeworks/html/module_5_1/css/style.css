@@ -86,8 +86,8 @@ nav {
 .first-menu li a:hover {
   color: white;
   background-color: #4eabda;
-  text-shadow: 0 0 7px rgba(255, 255, 255, .95);
-  /*Использовал это свойство, так как жирный текст менят ширину кнопки*/
+  text-shadow: 0 0 7px rgba(255, 255, 255, .95); /*Использовал это свойство, так как жирный текст менят ширину кнопки*/
+  font-weight: bold;
 }
 .second-menu li a:hover {
   background: linear-gradient(to bottom, #50afdc, #2e7ac4);
@@ -118,9 +118,6 @@ nav {
 }
 .bold {
   position: relative;
-}
-.bold:hover {
-  font-weight: bold;
 }
 
 /*Настройки формы*/
