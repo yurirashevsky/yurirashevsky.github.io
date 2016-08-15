@@ -243,6 +243,9 @@ button:focus {
   background-color: #111;
   font-family: "Helvetica Neue", Tahoma, sans-serif;
 }
+.fields:hover {
+  cursor: text;
+}
 .field:focus {
   border: 1px solid #1d4c7c;
   border-bottom-color: #689bcc;
