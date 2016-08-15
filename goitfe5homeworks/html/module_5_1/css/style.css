@@ -47,6 +47,8 @@ body {
 /*Настройка фона*/
 
 .wrapper {
+  position: relative;
+  text-align: center;
   height: 100vh;
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
@@ -131,12 +133,17 @@ nav {
 /*Настройки формы*/
 
 section {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: auto;*/
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  margin-left: -280px;
+  margin-top: -307px;
   height: 614px;
   width: 560px;
 }
