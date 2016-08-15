@@ -122,11 +122,17 @@ section {
   line-height: 62px;
   background-color: rgba(0,0,0,.65);
 }
+.submit {
+  padding: 10px 14px;
+}
 .terms-of-service {
   margin: 0 auto;
   width: 310px;
   color: #ccc;
   font-size: 11px;
+}
+.terms-of-service a {
+  color: #ccc;
 }
 
 /*Свойства полей ввода*/
