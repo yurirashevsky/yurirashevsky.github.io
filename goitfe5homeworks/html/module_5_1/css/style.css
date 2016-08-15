@@ -142,7 +142,6 @@ section {
 button,
 button:active,
 button:focus {
-  /*border: 0;*/
   outline-color: transparent;
   outline-offset: 1px;
   outline-style: none;
@@ -160,9 +159,11 @@ button:focus {
   font-weight: bold;
 }
 .login {
+  float: left;
   line-height: 34px;
+  padding-left: 30px;
   border-left: 1px solid #4c66a3;
-
+  letter-spacing: .03em;
 }
 .fb {
   float: left;
@@ -173,6 +174,14 @@ button:focus {
   height: 34px;
   width: 36px;
   border-right: 1px solid #203b70;
+}
+.login::after {
+  content: "›";
+  position: relative;
+  top: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 23px;
 }
 .slim {
   font-weight: normal;
@@ -214,6 +223,7 @@ button:focus {
   font-size: 24px;
   text-align: center;
   line-height: 62px;
+  font-weight: bold;
   background-color: rgba(0,0,0,.65);
 }
 
