@@ -41,36 +41,42 @@
     </nav>
     <section>
       <h1 class="header">Cadastre-se</h1>
-      <form class="form" action="index.html" method="post">
+      <div class="form">
+        <button class="facebook-login" type="button" name="button">
+          <span class="fb"></span>
+          <span class="login">Log In <span class="slim">with</span> Facebook</span>
+        </button>
         <span class="line">OU</span>
-        <ul class="container">
-          <li>
-            <input class="field" type="text" required name="firstname" placeholder="First Name">
-          </li>
-          <li>
-            <input class="field" type="text" required name="lastname" placeholder="Last Name">
-          </li>
-          <li>
-            <input class="field" type="email" required name="email" placeholder="Email Address">
-          </li>
-          <li>
-            <input class="field" type="password" required name="password" placeholder="Choose Password">
-          </li>
-          <li>
-            <input class="field" type="password" required name="password-conf" placeholder="Password Confirm">
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" name="youbike" id="youbike">
-            <label for="youbike">Send me Youbike updates and tips</label>
-          </li>
-          <li>
-            <input class="submit" type="submit" name="name" value="Create my Account">
-          </li>
-        </ul>
-        <p class="terms-of-service">
-          By clicking the button above, you agree to the Terms of Service Xiew our <a href="#">Privacy Policy</a>.
-        </p>
-      </form>
+        <form action="index.html" method="post">
+          <ul class="container">
+            <li>
+              <input class="field" type="text" required name="firstname" placeholder="First Name">
+            </li>
+            <li>
+              <input class="field" type="text" required name="lastname" placeholder="Last Name">
+            </li>
+            <li>
+              <input class="field" type="email" required name="email" placeholder="Email Address">
+            </li>
+            <li>
+              <input class="field" type="password" required name="password" placeholder="Choose Password">
+            </li>
+            <li>
+              <input class="field" type="password" required name="password-conf" placeholder="Password Confirm">
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" name="youbike" id="youbike">
+              <label for="youbike">Send me Youbike updates and tips</label>
+            </li>
+            <li>
+              <input class="submit" type="submit" name="name" value="Create my Account">
+            </li>
+          </ul>
+          <p class="terms-of-service">
+            By clicking the button above, you agree to the Terms of Service Xiew our <a href="#">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
     </section>
   </div>
 </body>

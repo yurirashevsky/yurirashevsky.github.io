@@ -139,6 +139,55 @@ section {
   height: 614px;
   width: 560px;
 }
+button,
+button:active,
+button:focus {
+  border: 0;
+  outline-color: transparent;
+  outline-offset: 1px;
+  outline-style: none;
+}
+.facebook-login {
+  padding: 0;
+  margin-bottom: 32px;
+  width: 276px;
+  color: #fff;
+  background: transparent;
+
+  /*border-color: #7586b1;
+  font-weight: bold;
+  border-radius: 5px;}*/
+}
+.login {
+  float: right;
+  background: linear-gradient(to bottom, #7789b7, #2e4476);
+  line-height: 36px;
+  border: 1px solid #415588;
+  -webkit-border-radius: 0 5px 5px 0;
+     -moz-border-radius: 0 5px 5px 0;
+          border-radius: 0 5px 5px 0;
+}
+.fb {
+  float: left;
+  background: linear-gradient(to bottom, #7789b7, #2e4476);
+  background: url(../img/facebook-letter-logo.svg) no-repeat top right;
+  background-position: center;
+  background-size: 20px;
+  height: 34px;
+  width: 36px;
+  border: 1px solid #415588;
+  -webkit-border-radius: 5px 0 0 5px;
+     -moz-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+
+}
+.fb::after {
+
+}
+
+.slim {
+  font-weight: normal;
+}
 .line {
   display: block;
   margin-bottom: 30px;
@@ -182,11 +231,11 @@ section {
 /*Свойства полей ввода*/
 
 .field {
-  height: 34px;
+  /*height: 34px;*/
   width: 238px;
   color: #fff;
   margin-bottom: 16px;
-  padding: 0 18px;
+  padding: 8px 18px;
   outline: none;
   border: 1px solid #111;
   border-bottom-color: #484746;
