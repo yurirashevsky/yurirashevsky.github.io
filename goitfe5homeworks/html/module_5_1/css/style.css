@@ -152,21 +152,16 @@ section {
   width: 238px;
   color: #fff;
   margin-bottom: 16px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 0 18px;
   outline: none;
-  border-top: 1px solid #111;
-  border-right: 1px solid #111;
-  border-left: 1px solid #111;
-  border-bottom: 1px solid #484746;
+  border: 1px solid #111;
+  border-bottom-color: #484746;
   background-color: #111;
   font-family: "Helvetica Neue", Tahoma, sans-serif;
 }
 .field:focus {
-  border-top: 1px solid #1d4c7c;
-  border-right: 1px solid #1d4c7c;
-  border-left: 1px solid #1d4c7c;
-  border-bottom: 1px solid #689bcc;
+  border: 1px solid #1d4c7c;
+  border-bottom-color: #689bcc;
   -webkit-box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
      -moz-box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
           box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
@@ -174,15 +169,16 @@ section {
 }
 .checkbox {
   display: block;
-  height: 34px;
-  width: 238px;
+  width: 284px;
+  padding: 0;
+  line-height: 25px;
   text-align: left;
-  margin-bottom: 16px;
-  margin: auto;
+  letter-spacing: .03em;
+  margin: 0 auto 15px;
 }
 .submit {
   margin-bottom: 20px;
-  padding: 10px 14px;
+  padding: 8px 12px;
   border-radius: 3px;
   border-color: #6bb8e7;
   background: linear-gradient(to bottom, #6bb8e7, #3686ca);
@@ -196,12 +192,12 @@ section {
   width: 310px;
   color: #ccc;
   font-size: 11px;
-  font-weight: lighter;
+  line-height: 15px;
+  letter-spacing: .03em;
 }
 .terms-of-service a {
   color: #ccc;
 }
-
 
 /*Свойства placeholder*/
 

@@ -42,7 +42,7 @@
     <section>
       <h1 class="header">Cadastre-se</h1>
       <form class="form" action="index.html" method="post">
-        <ul>
+        <ul class="container">
           <li>
             <input class="field" type="text" required name="firstname" placeholder="First Name">
           </li>
@@ -58,8 +58,9 @@
           <li>
             <input class="field" type="password" required name="password-conf" placeholder="Password Confirm">
           </li>
-          <li>
-            <label class="checkbox"><input type="checkbox" name="youbike" value="">Send me Youbike updates and tips</label>
+          <li class="checkbox">
+            <input type="checkbox" name="youbike" id="youbike">
+            <label for="youbike">Send me Youbike updates and tips</label>
           </li>
           <li>
             <input class="submit" type="submit" name="name" value="Create my Account">
