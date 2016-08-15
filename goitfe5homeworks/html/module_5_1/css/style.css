@@ -116,6 +116,12 @@ nav {
 .underline {
   text-decoration: underline;
 }
+.bold {
+  position: relative;
+}
+.bold:hover {
+  font-weight: bold;
+}
 
 /*Настройки формы*/
 
