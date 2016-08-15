@@ -142,7 +142,7 @@ section {
 button,
 button:active,
 button:focus {
-  border: 0;
+  /*border: 0;*/
   outline-color: transparent;
   outline-offset: 1px;
   outline-style: none;
@@ -152,20 +152,17 @@ button:focus {
   margin-bottom: 32px;
   width: 276px;
   color: #fff;
-  background: transparent;
-
-  /*border-color: #7586b1;
+  background: linear-gradient(to bottom, #7789b7, #2e4476);
+  border: 1px solid #415588;
+  -webkit-border-radius: 5px 5px 5px 5px;
+     -moz-border-radius: 5px 5px 5px 5px;
+          border-radius: 5px 5px 5px 5px;
   font-weight: bold;
-  border-radius: 5px;}*/
 }
 .login {
-  float: right;
-  background: linear-gradient(to bottom, #7789b7, #2e4476);
-  line-height: 36px;
-  border: 1px solid #415588;
-  -webkit-border-radius: 0 5px 5px 0;
-     -moz-border-radius: 0 5px 5px 0;
-          border-radius: 0 5px 5px 0;
+  line-height: 34px;
+  border-left: 1px solid #4c66a3;
+
 }
 .fb {
   float: left;
@@ -175,16 +172,8 @@ button:focus {
   background-size: 20px;
   height: 34px;
   width: 36px;
-  border: 1px solid #415588;
-  -webkit-border-radius: 5px 0 0 5px;
-     -moz-border-radius: 5px 0 0 5px;
-          border-radius: 5px 0 0 5px;
-
+  border-right: 1px solid #203b70;
 }
-.fb::after {
-
-}
-
 .slim {
   font-weight: normal;
 }
