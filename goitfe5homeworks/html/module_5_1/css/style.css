@@ -122,6 +122,11 @@ section {
   line-height: 62px;
   background-color: rgba(0,0,0,.65);
 }
+.terms-of-service {
+  width: 310px;
+  color: #ccc;
+  font-size: 11px;
+}
 
 /*Свойства полей ввода*/
 
