@@ -11,12 +11,12 @@
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('../fonts/helveticaneue-thin-webfont.eot');
-    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
-         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype'),
-         url('../fonts/helveticaneue-thin-webfont.svg#helvetica_neueregular') format('svg');
+    src: url('../fonts/helveticaneuecyr-medium-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-medium-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-medium-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneuecyr-medium-webfont.svg#helveticaneuecyrmedium') format('svg');
     font-weight: bold;
     font-style: normal;
 }
@@ -144,22 +144,6 @@ section {
   line-height: 62px;
   background-color: rgba(0,0,0,.65);
 }
-.submit {
-  margin-bottom: 20px;
-  padding: 10px 14px;
-  font-size: 14px;
-  font-weight: bold;
-}
-.terms-of-service {
-  margin: 0 auto;
-  width: 310px;
-  color: #ccc;
-  font-size: 11px;
-  font-weight: lighter;
-}
-.terms-of-service a {
-  color: #ccc;
-}
 
 /*Свойства полей ввода*/
 
@@ -176,7 +160,7 @@ section {
   border-left: 1px solid #111;
   border-bottom: 1px solid #484746;
   background-color: #111;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
 }
 .field:focus {
   border-top: 1px solid #1d4c7c;
@@ -188,6 +172,36 @@ section {
           box-shadow: 0 0 15px 1px rgba(104,155,204,.85), inset 0 0 5px 0 rgba(0,0,0,.3);
   background-color: #1b5288;
 }
+.checkbox {
+  display: block;
+  height: 34px;
+  width: 238px;
+  text-align: left;
+  margin-bottom: 16px;
+  margin: auto;
+}
+.submit {
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-radius: 3px;
+  border-color: #6bb8e7;
+  background: linear-gradient(to bottom, #6bb8e7, #3686ca);
+  color: #fff;
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.terms-of-service {
+  margin: 0 auto;
+  width: 310px;
+  color: #ccc;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.terms-of-service a {
+  color: #ccc;
+}
+
 
 /*Свойства placeholder*/
 
