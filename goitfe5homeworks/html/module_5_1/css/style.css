@@ -103,10 +103,8 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 50%;
-  height: 30%;
   margin: auto;
-  /*margin: 0 auto;*/
+  height: 614px;
   width: 560px;
 }
 .form {
@@ -127,12 +125,13 @@ section {
 
 /*Свойства полей ввода*/
 
-.form input {
-  height: 35px;
-  width: 275px;
+.field {
+  height: 34px;
+  width: 238px;
   color: #fff;
   margin-bottom: 16px;
   padding-left: 18px;
+  padding-right: 18px;
   outline: none;
   border-top: 1px solid #111;
   border-right: 1px solid #111;
@@ -140,7 +139,7 @@ section {
   border-bottom: 1px solid #484746;
   background-color: #111;
 }
-.form input:focus {
+.field:focus {
   border-top: 1px solid #1d4c7c;
   border-right: 1px solid #1d4c7c;
   border-left: 1px solid #1d4c7c;
@@ -153,49 +152,49 @@ section {
 
 /*Свойства placeholder*/
 
-.form input::-webkit-input-placeholder {
+.field::-webkit-input-placeholder {
   text-indent: 0;
   transition: text-indent 0.3s ease;
 }
-.form input::-moz-placeholder {
+.field::-moz-placeholder {
   text-indent: 0;
   transition: text-indent 0.3s ease;
 }
-.form input:-moz-placeholder {
+.field:-moz-placeholder {
   text-indent: 0;
   transition: text-indent 0.3s ease;
 }
-.form input:-ms-input-placeholder {
+.field:-ms-input-placeholder {
   text-indent: 0;
   transition: text-indent 0.3s ease;
 }
 
-.form input:hover::-webkit-input-placeholder {
+.field:hover::-webkit-input-placeholder {
   color: #fff;
 }
-.form input:hover::-moz-placeholder {
+.field:hover::-moz-placeholder {
   color: #fff;
 }
-.form input:hover:-moz-placeholder {
+.field:hover:-moz-placeholder {
   color: #fff;
 }
-.form input:hover:-ms-input-placeholder {
+.field:hover:-ms-input-placeholder {
   color: #fff;
 }
 
-.form input:focus::-webkit-input-placeholder {
+.field:focus::-webkit-input-placeholder {
   text-indent: 500px;
   transition: text-indent 0.3s ease;
 }
-.form input:focus::-moz-placeholder {
+.field:focus::-moz-placeholder {
   text-indent: 500px;
   transition: text-indent 0.3s ease;
 }
-.form input:focus:-moz-placeholder {
+.field:focus:-moz-placeholder {
   text-indent: 500px;
   transition: text-indent 0.3s ease;
 }
-.form input:focus:-ms-input-placeholder {
+.field:focus:-ms-input-placeholder {
   text-indent: 500px;
   transition: text-indent 0.3s ease;
 }
