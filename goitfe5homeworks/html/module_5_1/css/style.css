@@ -123,6 +123,7 @@ section {
   background-color: rgba(0,0,0,.65);
 }
 .terms-of-service {
+  margin: 0 auto;
   width: 310px;
   color: #ccc;
   font-size: 11px;
