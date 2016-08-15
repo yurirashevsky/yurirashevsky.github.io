@@ -74,6 +74,7 @@ nav {
   display: block;
   text-decoration: none;
   font-size: 14px;
+  cursor: pointer
 }
 .first-menu li a {
   padding: 10px;
@@ -145,6 +146,7 @@ button:focus {
   outline-color: transparent;
   outline-offset: 1px;
   outline-style: none;
+  cursor: pointer
 }
 .facebook-login {
   padding: 0;
@@ -268,6 +270,7 @@ button:focus {
   font-family: "Helvetica Neue", Tahoma, sans-serif;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer
 }
 .terms-of-service {
   margin: 0 auto;
